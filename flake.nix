@@ -22,7 +22,7 @@
           sites."default" = {
             layers = [{ path = ./.; pathString = "."; }];
             # port = 8080;
-            baseUrl = "/_site"; # Change to "/" (or remove it entirely) if using CNAME
+            baseUrl = "/mynotes"; # Change to "/" (or remove it entirely) if using CNAME
             # prettyUrls = true;
           };
         };
